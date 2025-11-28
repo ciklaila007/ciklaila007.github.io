@@ -63,6 +63,13 @@
             border-radius: 8px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
+        .card .project-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
         footer {
             background: #2c3076;
             color: white;
@@ -75,7 +82,7 @@
 <body>
     <header>
         <h1>Laila Sari</h1>
-        <p>Software Engineering Graduate | Web Developer (Laravel & MySQL)</p>
+        <p>Software Engineering Fresh Graduate | Web Developer (Laravel & MySQL)</p>
     </header>
 
     <nav>
@@ -98,10 +105,10 @@
     <section id="skills">
         <h2>Skills</h2>
         <div class="skills">
-            <div class="card"><strong>Languages:</strong><br>PHP, JavaScript, SQL, HTML, CSS</div>
+            <div class="card"><strong>Languages:</strong><br>PHP, JavaScript, Ajax, SQL, HTML, CSS</div>
             <div class="card"><strong>Framework:</strong><br>Laravel</div>
             <div class="card"><strong>Database:</strong><br>MySQL</div>
-            <div class="card"><strong>Tools:</strong><br>Git, GitHub, VSCode, Postman</div>
+            <div class="card"><strong>Tools:</strong><br>GitHub, VSCode, Figma, Jira</div>
         </div>
     </section>
 
@@ -109,8 +116,18 @@
         <h2>Projects</h2>
         <div class="projects">
             <div class="card">
+                <div class="project-image">
+                    <img src="images/myqiz-cover.png" alt="MyQiz System Cover Image">
+                </div>
                 <h3>MyQiz System</h3>
-                <p>A multi-role Tahfiz management system for lecturers and students. Includes performance tracking, class management, dashboard analytics, and Laravel-based backend logic.</p>
+                <p>A multi-role Tahfiz management system for lecturers and students. Includes performance tracking, class management, dashboard analyics, and Laravel-based backend logic. Build using Laravel 11, Bootstrap, and AdminLTE template.</p>
+                <ul>
+                    <li>Multi-login access (Admin, Lecturer, Student, Head of Department (Hod))</li>
+                    <li>Student performance tracking for hafazan and manzil</li>
+                    <li>Class and subject management modules</li>
+                    <li>Backend logic optimization and refactoring for stable deployment</li>
+                </ul>
+                <p><em>Role: Full‑stack development, requirement analysis, backend logic creation, UI using Blade, debugging, user testing, and API preparation for mobile version.</em></p>
             </div>
             <div class="card">
                 <h3>InFiYPro</h3>
@@ -125,7 +142,7 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: your-email@example.com<br>Phone: 01X-XXXXXXX<br>GitHub: github.com/yourusername</p>
+        <p>Email: lailasari783@gmail.com<br>Phone: +601119581451<br>GitHub: github.com/ciklaila007</p>
     </section>
 
     <footer>
