@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laila Sari - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            color: #333;
+        }
+        header {
+            background: #2c3076;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+        }
+        nav {
+            background: white;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: #2c3076;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #1a1d4a;
+        }
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #2c3076;
+            border-left: 5px solid #2c3076;
+            padding-left: 10px;
+        }
+        .skills, .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #2c3076;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laila Sari</h1>
+        <p>Software Engineering Graduate | Web Developer (Laravel & MySQL)</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Software Engineering graduate with hands-on experience in web development, backend logic,
+            Laravel frameworks, MySQL databases, requirement analysis, and system documentation. I’ve worked
+            on real academic and internship-based systems like MyQiz and InFiYPro, focusing on multi-login,
+            performance tracking, and system management features.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card"><strong>Languages:</strong><br>PHP, JavaScript, SQL, HTML, CSS</div>
+            <div class="card"><strong>Framework:</strong><br>Laravel</div>
+            <div class="card"><strong>Database:</strong><br>MySQL</div>
+            <div class="card"><strong>Tools:</strong><br>Git, GitHub, VSCode, Postman</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>MyQiz System</h3>
+                <p>A multi-role Tahfiz management system for lecturers and students. Includes performance tracking, class management, dashboard analytics, and Laravel-based backend logic.</p>
+            </div>
+            <div class="card">
+                <h3>InFiYPro</h3>
+                <p>An integrated Final Year Project management system allowing students, supervisors, and admins to manage titles, progress, and records.</p>
+            </div>
+            <div class="card">
+                <h3>MRS Berhad Website</h3>
+                <p>Handled requirement gathering, documentation, and coordination with clients for website development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your-email@example.com<br>Phone: 01X-XXXXXXX<br>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Laila Sari. All Rights Reserved.
+    </footer>
+</body>
+</html>
